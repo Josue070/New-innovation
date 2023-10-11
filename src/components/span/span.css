@@ -1,0 +1,127 @@
+:root{
+    --blanco: #FEFEFE;
+    --azul: #0000FF;
+    --rojo: #ED5144;
+    --amarilo:#D3D824;
+    --azul1:#325AA6;
+    --verde_oscuro:#1C2E14;
+    --azul2: #0A3586;
+    --negro: #000000;
+    --claro: #EBEBEB;
+    --verde_bajo: #80D25B;
+    --aqua: #22BA8E;
+    --gris_azul: #114B5F;
+    --verde_ocuro:#6CB14F;
+    --naranja: #E1B58B; /* Naranja */
+    --celeste: #00FEFB; 
+}
+
+.return{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container_span{
+    margin-top: 50px;
+}
+.container_span_1{
+    display: flex;
+}
+.container_span_2{
+    display: flex;
+}
+.caja_1{
+    background-color:var(--claro);
+    width: 450px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caja_1 h1{
+    color: var(--negro);
+    margin-top: 50px;
+
+}
+.caja_1 p{
+    color: var(--gris_azul);
+    font-size: 20px;
+}
+
+.caja_2{
+    background-color: var(--celeste);
+    width: 450px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caja_2 h1{
+    color: var(--negro);
+    margin-top: 50px;
+}
+.caja_2 p{
+    color:var(--negro);
+    font-size: 20px;
+}
+
+.caja_3{
+    background-color: var(--celeste);
+    width: 450px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caja_3 h1{
+    color:var(--negro);
+    margin-top: 50px;
+}
+.caja_3 p{
+    color:var(--negro);
+    font-size: 20px;
+}
+
+.caja_4{
+    background-color: var(--claro);
+    width: 450px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caja_4 h1{
+    color: var(--negro);   
+    margin-top: 50px;
+}
+.caja_4 p{
+    color: var(--negro);
+    font-size: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .container_span_1{
+        display: grid;
+    }
+    .container_span_2{
+        display: grid;
+    }
+    .container_span{
+        margin-top: 0px;
+    }
+    .caja_1{
+
+        height:22vh;
+    }
+    .caja_2{
+
+        height:22vh;
+    }
+    .caja_3{
+
+        height:22vh;
+    }
+    .caja_4{
+
+        height:22vh;
+    }
+}

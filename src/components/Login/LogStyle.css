@@ -1,0 +1,105 @@
+:root {
+    --azul-marino: #00fefb;
+    --azul-turquesa: #22BA8E;
+    --celeste: #87CEEB;
+    --nude-cafe: #D3B080;
+    --negro: #000000;
+    --blanco: #FFFFFF; /* Agregamos el color blanco */
+}
+
+.ContenedorLog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../../assets/img/logo2.jpg);
+ 
+}
+
+.ContenedorAll {
+    display: flex;
+    margin-top: 50px;
+}
+
+.ContenedorAcces {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blanco);
+    width: 50vh;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px 0px 0px 40px;
+    /* Nuevo estilo para agregar un borde blanco */
+    border: 2px solid var(--blanco);
+}
+
+.ContenedorImg {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azul-marino);
+    width: 50vh;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.LogoScuro {
+    width: 200px;
+}
+
+.Inputs {
+    margin-top: 40px;
+}
+
+.BotonInicio {
+    margin: 7px;
+    background-color: var(--azul-marino);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: var(--azul-marino);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.BotonInicio:hover {
+    color: var(--azul-marino); /* Cambia el color del texto a celeste al pasar el cursor */
+}
+
+.Iniciar {
+    display: flex;
+    margin-top: 30px;
+}
+
+.Parrafo {
+    font-size: 15px;
+    color: var(--azul-marino);
+}
+
+.blok {
+    display: grid;
+    justify-items: right;
+}
+
+.Titulo {
+    font-size: 16px;
+    color: var(--azul-turquesa);
+}
+
+.ContenedorImg h1 {
+    color: var(--celeste);
+    font-size: 30px;
+}
+
+.Img1 {
+    height: 290px;
+    margin-top: 5px;
+}
+
+.Stive {
+    color: var(--nude-cafe);
+    text-align: center;
+}

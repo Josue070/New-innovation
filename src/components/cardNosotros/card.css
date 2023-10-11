@@ -1,0 +1,38 @@
+.fotoIntegrantes{
+    width: 160px;
+    border-radius: 50%;
+}
+.contendCard{
+    margin-top: 20px;
+    width: 96.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+.contenedorDatos{
+    text-align: center;
+    width: 35vw;
+    padding: 15px;
+    color: #114B5F;
+}
+.contenedorDatos p{
+    color: black;
+}
+
+.WhatsAppIcon{
+    color: #60c232;
+}
+.Facebook{
+    color: blue;
+}
+.Instagram{
+    color: deeppink;
+}
+
+.texto1{
+    margin-top: 15px;
+    color: #114B5F;
+    text-align: center;
+}

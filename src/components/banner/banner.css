@@ -1,0 +1,63 @@
+:root{
+    --blanco: #FEFEFE;
+    --azul: #0000FF;
+    --rojo: #ED5144;
+    --amarilo:#D3D824;
+    --azul1:#325AA6;
+    --verde_oscuro:#1C2E14;
+    --azul2: #0A3586;
+    --negro: #000000;
+    --claro: #EBEBEB;
+    --verde_bajo: #80D25B;
+    --aqua: #22BA8E;
+    --gris_azul: #114B5F;
+    --verde_ocuro:#6CB14F;
+}
+.cont_birret{
+    background-color: var(--verde_ocuro);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    position: static;
+}
+.cont_birret .birret{
+    color: var(--claro);
+}
+
+.banner{
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    height: 37vh;
+    display: grid;
+    margin-top: 5px;
+    align-content: center;
+    justify-items: center;
+}
+
+.banner h1{
+    color: var(--claro);
+}
+
+.banner h2{
+    color:var(--claro);
+}
+@media only screen and (max-width: 767px) {
+    .banner{
+        height: 25vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .banner h1{
+        font-size: 20px;
+    }
+    .banner h2{
+        font-size: 15px;
+    }
+    .cont_birret{
+        display: none;
+    }
+
+}
